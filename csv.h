@@ -18,6 +18,7 @@ class CSV : public QWidget
     Q_OBJECT
 public:
     explicit CSV(QWidget *parent = 0);
+    ~CSV();
     void Read(QString fileName);
     QString clearCSV(QString item);
 

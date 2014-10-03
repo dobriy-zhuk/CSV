@@ -189,4 +189,6 @@ void CSV::Read(QString fileName)
      }
 }
 
-
+CSV::~CSV(){
+    close();
+}
